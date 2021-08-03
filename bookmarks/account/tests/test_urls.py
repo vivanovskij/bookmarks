@@ -1,5 +1,9 @@
-from django.test import SimpleTestCase
+from django.test import TestCase
 
-class TestUrls(SimpleTestCase):
-    def test_list_url_is_resolved(self):
-        assert 1 == 2
+#class UrlTestCase(TestCase):
+#
+#def test_get_absolute_url(self):
+#    author=Author.objects.get(id=1)
+#    #This will also fail if the urlconf is not defined.
+#    self.assertEquals(author.get_absolute_url(),'/catalog/author/1')
+#
